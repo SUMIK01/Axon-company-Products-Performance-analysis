@@ -63,6 +63,8 @@ Snap of new calculated columns:
 
 <img width="155" alt="sales profit github" src="https://github.com/SUMIK01/Axon-company-Products-Performance-analysis/assets/146610054/bb9a11fe-0a56-4463-84bd-132c48ba46ee">
 
+
+
 New measure was created to calculate year on year basis sales.
 
 For creating measure following dax function is used,
@@ -84,6 +86,44 @@ For creating measure following dax function is used,
 A visual which represnt the Year on year basis Sales which is calculated by above DAX formula 
 
 <img width="253" alt="YoY" src="https://github.com/SUMIK01/Axon-company-Products-Performance-analysis/assets/146610054/d160074f-fa23-415c-bd24-ecea583a72b0">
+
+
+
+The Quick measure created to calculate profit year on year basis 
+
+    Profit YoY% = 
+          IF(
+	    ISFILTERED('Orders'[Order Date]),
+	    ERROR("Time intelligence quick measures can only be grouped or filtered by the Power BI-provided date hierarchy or primary date column."),
+	    VAR __PREV_YEAR =
+	         CALCULATE(
+		     SUM('Order details'[Profit]),
+		     DATEADD('Orders'[Order Date].[Date], -1, YEAR)
+		)
+	   RETURN
+	      DIVIDE(SUM('Order details'[Profit]) - __PREV_YEAR, __PREV_YEAR)
+            )
+
+
+New measure Profit margin is created with the help of profit and sales.
+
+The DAX formula used to create this mesure is as below,
+
+                 Profit Margin = SUMX('Order details',('Order details'[Profit] /SUM('Order details'[Sales]) ))
+
+To calculate the pending amount I have created new measure pending payment using following DAX formula.
+
+                 Payment Pending = sum('Order details'[Sales]) - sum(Payments[Amount])
+
+   
+
+By using above measure some useful visuals were created which gave useful insights shown below.
+
+<img width="464" alt="pending payment  for github" src="https://github.com/SUMIK01/Axon-company-Products-Performance-analysis/assets/146610054/7f3fda70-d243-434a-9b9c-052b6a1cd14a">
+   
+
+   
+
            
 
 
