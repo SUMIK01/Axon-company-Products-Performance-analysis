@@ -45,13 +45,48 @@ EDA involved exploring the sales data to answer key questions, such as:
 
 ### Data Analysis  
 
-Calculated column Sales is generated as it was needed by using  the quantity order and selling price columns.
+Calculated column Sales and Profit is generated as  by using  the quantity order and selling price columns and for profit selling price and buy price columns use.
 For creating new column following DAX expression was written;
 
         Sales = 'Order details'[Quantity Ordered]*'Order details'[Selling Price]
 
-Snap of new calculated column:
-<img width="49" alt="Salesgithub" src="https://github.com/SUMIK01/Axon-company-Products-Performance-analysis/assets/146610054/b6e64325-e10d-4282-8947-ca0ea8990623">
+        Profit = 'Order details'[Selling Price]-'Order details'[Buy Price]
+
+Snap of new calculated columns:
+
+
+
+
+
+
+
+
+<img width="155" alt="sales profit github" src="https://github.com/SUMIK01/Axon-company-Products-Performance-analysis/assets/146610054/bb9a11fe-0a56-4463-84bd-132c48ba46ee">
+
+New measure was created to calculate year on year basis sales.
+
+For creating measure following dax function is used,
+
+                 Sales YoY% = 
+                 IF(
+	            ISFILTERED('Orders'[Order Date]),
+	            ERROR("Time intelligence quick measures can only be grouped or filtered by the Power BI-provided date hierarchy or primary date 
+                    column."),
+	            VAR __PREV_YEAR =
+		         CALCULATE(
+			     SUM('Order details'[Sales]),
+			     DATEADD('Orders'[Order Date].[Date], -1, YEAR)
+		         )
+	             RETURN
+		        DIVIDE(SUM('Order details'[Sales]) - __PREV_YEAR, __PREV_YEAR)
+                    )
+
+A visual which represnt the Year on year basis Sales which is calculated by above DAX formula 
+
+<img width="253" alt="YoY" src="https://github.com/SUMIK01/Axon-company-Products-Performance-analysis/assets/146610054/d160074f-fa23-415c-bd24-ecea583a72b0">
+           
+
+
   
 
     
