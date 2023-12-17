@@ -120,6 +120,16 @@ To calculate the pending amount I have created new measure pending payment using
 By using above measure some useful visuals were created which gave useful insights shown below.
 
 <img width="464" alt="pending payment  for github" src="https://github.com/SUMIK01/Axon-company-Products-Performance-analysis/assets/146610054/7f3fda70-d243-434a-9b9c-052b6a1cd14a">
+
+
+### Visualizations 
+
+On the basis of objective of the project the useful visualization were created in page wise report and out of which some importants interactive visualizations were added in Overview report which is attached below.
+
+
+
+<img width="586" alt="The report github" src="https://github.com/SUMIK01/Axon-company-Products-Performance-analysis/assets/146610054/23c6c5c2-c5c7-4036-ab3a-bba5fada9f10">
+
    
 
    
