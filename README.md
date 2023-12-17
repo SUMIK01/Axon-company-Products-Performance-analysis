@@ -43,6 +43,15 @@ EDA involved exploring the sales data to answer key questions, such as:
 - To show trend of sales over time for each car model 
 - Which office is most performing .
 
+### Data Analysis  
+
+Calculated column Sales is generated as it was needed by using  the quantity order and selling price columns.
+For creating new column following DAX expression was written;
+
+        Sales = 'Order details'[Quantity Ordered]*'Order details'[Selling Price]
+
+Snap of new calculated column:
+  
 
     
 
