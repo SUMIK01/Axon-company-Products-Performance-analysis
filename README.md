@@ -28,4 +28,22 @@ In the initial data preparation phase, we performed the following tasks:
 8. Go through each tables and columns and data cleaning and formatting done.
 9. calculated columns generated based on existing columns.
 
+### Exploratory Data Analysis
+
+EDA involved exploring the sales data to answer key questions, such as:
+
+- To display the top 10 products sold from product line available. 
+- To Calculate how much revenue generated from each product line .
+- To know year on year growth of sales and profit
+- To find Who are the top customers in each category 
+- To find Country wise sales . 
+- Top performing employees. 
+- Calculate the pendency in payment by Customers and Countries.
+- To show the market share of top brands
+- To show trend of sales over time for each car model 
+- Which office is most performing .
+
+
+    
+
    
