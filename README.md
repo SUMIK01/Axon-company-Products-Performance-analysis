@@ -51,6 +51,7 @@ For creating new column following DAX expression was written;
         Sales = 'Order details'[Quantity Ordered]*'Order details'[Selling Price]
 
 Snap of new calculated column:
+<img width="49" alt="Salesgithub" src="https://github.com/SUMIK01/Axon-company-Products-Performance-analysis/assets/146610054/b6e64325-e10d-4282-8947-ca0ea8990623">
   
 
     
