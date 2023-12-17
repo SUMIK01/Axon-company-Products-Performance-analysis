@@ -130,6 +130,64 @@ On the basis of objective of the project the useful visualization were created i
 
 <img width="586" alt="The report github" src="https://github.com/SUMIK01/Axon-company-Products-Performance-analysis/assets/146610054/23c6c5c2-c5c7-4036-ab3a-bba5fada9f10">
 
+
+
+
+### Findings 
+
+The analysis results are summarized as follows:
+
+#### Product lines:
+- Total sales of all product line is $9.6 M and profit $108.44K 
+- Classic Cars product line having highest sale and profit of $3.85 M and 
+  $43.16K.
+- Trains are having lowest in sale and profit is also less as only 3 articles are 
+  available .
+- Ferrari 360 Spider red is the top performing product from all the products
+- Vintage cars and motorcycles are having more profit margin on average 
+  1.17% 
+- Need to think about the profit margin of Porsche 356A coupe of classic car 
+  product line as sale is good but profit is less .
+
+#### Sales:
+- USA has most sales amongst all Countries
+- France overtaken USA in sale in year 2005
+- Inside USA San Francisco generated maximum sales 16.11 K 
+- The year 2005 has lowest sales Year on year basis
+- he growth of company is declining
+
+#### Customers
+- USA received most orders (56.25%)
+- The top customer is Euro shopping channel from Spain placed 26 orders 
+  with highest sale and profit 
+- The Paris office is top performing in the world which generated 106 order 
+  by maximum sale and profit
+  
+#### Employees:
+- Total Employees are 23 and out of which 17 employees are sales 
+  representative.
+- Employees from London office are more hardworking as 2 employees made 
+  47 orders.
+- Tokyo office employees are below performer as only 16 orders generated 
+- Gerard Hernandez is the top performing sales representative from Paris 
+  office completed 43 orders alone and generated $1.25 M sales and $13.7K 
+  profit.
+
+ #### Payments:
+ 
+- USA is having most pendency in payment at about $233.25k .
+- Euro shopping channel customer from Spain is having amount to be paid 
+  $104.95K
+- The sharp Gifts Warehouse customer from USA is also having pendency of 
+  payment of amount $83.98K.
+- Customers those are from countries Norway,Japan,Germany,Canada,Hong 
+  Kong and Ireland paid all the amount
+  
+  
+
+
+
+
    
 
    
