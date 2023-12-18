@@ -2,11 +2,11 @@
 
 ### Project Overview 
 
-This data analysis project aims to provide insights into the sales performance of an Axon company which is a retailer selling classic cars and other products. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
+This data analysis project aims to provide insights into the sales performance of an Axon company which is a retailer selling classic cars and other product line. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
 
 ### Data Sources 
 
-Sales Data: The primary dataset used for this analysis is the "Productline.sql" file, containing detailed information about each sale made by the company.
+Sales Data: The primary dataset used for this analysis is the "Productline.sql" file, containing detailed information about sales,customers,employees ,orders and payments of the company.
 
 ### Tools
 
@@ -182,6 +182,22 @@ The analysis results are summarized as follows:
   payment of amount $83.98K.
 - Customers those are from countries Norway,Japan,Germany,Canada,Hong 
   Kong and Ireland paid all the amount
+
+### Recommendations
+
+- As year on year sales and profit are decreasing comapany should do business audit and try to find out the reasons of negative growth
+- Paris office are giving 3 times more business than others so should implement the same strategies in other offices also or they can give training to other employees.
+- Should be focus on product promotions and marketing .
+
+### References
+   Sales Dashboard: This project involves creating a dashboard to visualize sales data using PowerBI. It includes charts, graphs, and tables that provide insights into 
+   sales performance over time, customer demographics, and product popularity. (https://www.netsolutions.com/casestudy-ecom-dashboard)
+   
+   SQL Sales Analysis: This project involves using SQL to perform advanced analytics on sales data and extract insights that can inform decision-making. It includes tasks 
+   such as creating pivot tables, running queries, and creating views. (https://medium.com/swlh/data-anlysis-project-for-retail-sales-performance-report-using-sql- 
+   6ef1d4443712)
+
+   Referred website https://www.investopedia.com/terms/p/product-line.asp
   
   
 
