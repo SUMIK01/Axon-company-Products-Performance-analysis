@@ -1,4 +1,4 @@
-# Analysis of sales Data and performance of Products of Axon Company. 
+# Analysis of Sales Data and Performance of Products of Axon Company. 
 
 ## Table of Contents
 - [Project Overview](#project-overview)
