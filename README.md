@@ -22,7 +22,7 @@ Sales Data: The primary dataset used for this analysis is the "Productline.sql" 
 
 ### Tools
 
-- SQL Server - Data cleaning and analysis [Download here](https://www.mysql.com/downloads/)
+- MySQL - Data cleaning and analysis [Download here](https://www.mysql.com/downloads/)
 
 - PowerBI - Data Modeling and Report creation [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 
