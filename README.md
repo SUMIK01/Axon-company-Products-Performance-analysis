@@ -1,5 +1,17 @@
 # Analysis of sales Data and performance of Products of Axon Company. 
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [ Tools](#tools)
+- [Data Preparation](#data-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Visualizations](#visualizations)
+- [Findings](#findings)
+- [Recommendations](#recommendations)
+- [References](#references)          
+
 ### Project Overview 
 
 This data analysis project aims to provide insights into the sales performance of an Axon company which is a retailer selling classic cars and other product line. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
@@ -14,7 +26,7 @@ Sales Data: The primary dataset used for this analysis is the "Productline.sql" 
 
 - PowerBI - Data Modeling and Report creation [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 
-### Data Cleaning/Preparation
+### Data Preparation
 
 In the initial data preparation phase, we performed the following tasks:
 
